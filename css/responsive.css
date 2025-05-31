@@ -1,0 +1,188 @@
+/* Arquivo de estilos responsivos para o projeto Jota R Marketing */
+
+/* Estilos gerais para dispositivos móveis */
+@media (max-width: 767px) {
+  /* Ajustes de layout */
+  .container {
+    padding: 0 10px;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  /* Ajustes para formulários */
+  .form-label {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .form-control, .form-select {
+    font-size: 0.95rem;
+    padding: 0.5rem;
+  }
+  
+  .input-group {
+    flex-wrap: nowrap;
+  }
+  
+  /* Ajustes para botões */
+  .btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+  
+  .d-grid.gap-2.d-md-flex {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem !important;
+  }
+  
+  /* Ajustes para cards */
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  /* Ajustes para tabelas */
+  .table {
+    font-size: 0.85rem;
+  }
+  
+  /* Ajustes para gráficos */
+  .chart-container {
+    height: 200px;
+  }
+  
+  /* Ajustes para relatórios e propostas */
+  .report-container, .proposal-preview, .contract-content {
+    padding: 10px;
+  }
+  
+  /* Ajustes para assinaturas */
+  .signature-container {
+    height: 150px;
+  }
+}
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Ajustes de layout */
+  .container {
+    padding: 0 15px;
+  }
+  
+  /* Ajustes para formulários em duas colunas */
+  .row .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  /* Ajustes para gráficos */
+  .chart-container {
+    height: 250px;
+  }
+}
+
+/* Ajustes para telas muito pequenas (smartphones) */
+@media (max-width: 575px) {
+  /* Ajustes de layout */
+  .container {
+    padding: 0 8px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  /* Ajustes para formulários */
+  .form-control, .form-select {
+    font-size: 0.9rem;
+  }
+  
+  /* Ajustes para botões */
+  .btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .d-grid.gap-2.d-md-flex {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Ajustes para cards na tela inicial */
+  .option-card {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Ajustes para tabelas */
+  .table-responsive {
+    font-size: 0.8rem;
+  }
+  
+  /* Ajustes para assinaturas */
+  .signature-container {
+    height: 120px;
+  }
+}
+
+/* Ajustes para elementos específicos */
+@media (max-width: 767px) {
+  /* Ajustes para navbar */
+  .navbar-brand img {
+    height: 30px;
+  }
+  
+  /* Ajustes para serviços na proposta */
+  .service-item {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Ajustes para botões de ação nos previews */
+  .card-header .btn-sm {
+    padding: 0.25rem 0.4rem;
+    font-size: 0.75rem;
+  }
+  
+  /* Melhorar visualização de elementos de toque */
+  input[type="checkbox"], input[type="radio"] {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .form-check-label {
+    padding-left: 0.25rem;
+  }
+  
+  /* Ajustes para áreas de assinatura */
+  .contract-signature {
+    flex-direction: column;
+  }
+  
+  .contract-signature > div {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Ajustes para orientação paisagem em dispositivos móveis */
+@media (max-width: 767px) and (orientation: landscape) {
+  .option-card {
+    height: 200px;
+  }
+  
+  .card-icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+}
